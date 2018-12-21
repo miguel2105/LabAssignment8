@@ -49,12 +49,12 @@ export class LoginComponent implements OnInit {
 
       } else {
         //show error toast user
-        this.toastService.showToast('danger', 15000, 'Login failed! Please check your username or passowrd!');
+        this.toastService.showToast('danger', 5000, 'Login failed! Please check your username or passowrd!');
 
       }
     } else {
       //show error toast user
-      this.toastService.showToast('danger', 15000, 'Login failed! Please specify username or passowrd!');
+      this.toastService.showToast('danger', 5000, 'Login failed! Please specify username or passowrd!');
 
     }
 
